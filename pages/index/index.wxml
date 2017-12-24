@@ -1,0 +1,7 @@
+<view class='index-container'>
+  <image class='logo' src='../images/interest.jpg'></image>
+  <text class='username'>hello,Interest</text>
+  <view class='btn' bindtap='goNewsTap'>
+    <text>和Interest一起分享时光</text>
+  </view>
+</view>

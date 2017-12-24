@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/movies/movies", 
+    "pages/news/news",
+    "pages/news/news-detail/news-detail",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/movie-more/movie-more"    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Interest"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath":"pages/images/yuedu.png",
+        "selectedIconPath":"pages/images/yuedu.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "pages/images/diany.png",
+        "selectedIconPath": "pages/images/diany.png"
+      }
+     
+    ],
+    "selectedColor":"#109D59",
+    "backgroundColor":"white",
+    "color":"#555555"
+  }
+
+
+
+}
